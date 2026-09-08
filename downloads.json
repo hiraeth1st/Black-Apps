@@ -1,5 +1,18 @@
 [
-  {"file":"sessiz-oda-2.0.5.apk","size":2562724,"sha256":"aab69313626fc1bf44414e0da598c30abe858703aad4ccde934b79c3312ad934"},
-  {"file":"black-sticker-maker-0.1.0.apk","size":103886,"sha256":"ca456cfe7604cdc7f3e23616a5bfe7aca00fc265e567d87af8e03acbf66a4c59"},
-  {"file":"black-video-1.0.0.apk","size":107539078,"sha256":"7e39d76ab4ff5901587a6be0b1d390b27bc0186ac9316d5bd1280f90f6d2df0a","url":"https://github.com/hiraeth1st/Black-Video/releases/download/v1.0.0/black-video-1.0.0.apk"}
+  {
+    "file": "sessiz-oda-2.0.5.apk",
+    "size": 2562724,
+    "sha256": "aab69313626fc1bf44414e0da598c30abe858703aad4ccde934b79c3312ad934"
+  },
+  {
+    "file": "black-sticker-maker-1.0.0.apk",
+    "size": 97436,
+    "sha256": "6f931e28649c0784a452e565ddf466b34ba08766f8cb69cd761a053683a83087"
+  },
+  {
+    "file": "black-video-1.0.0.apk",
+    "size": 107539078,
+    "sha256": "7e39d76ab4ff5901587a6be0b1d390b27bc0186ac9316d5bd1280f90f6d2df0a",
+    "url": "https://github.com/hiraeth1st/Black-Video/releases/download/v1.0.0/black-video-1.0.0.apk"
+  }
 ]
