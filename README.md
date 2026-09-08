@@ -1,6 +1,6 @@
 # BLACK Apps — Render
 
-Bağımsız Android indirme sitesi. Sessiz Oda 2.0.5 ve Black Sticker Maker 0.1.0 ön sürümü içerir.
+Bağımsız Android indirme sitesi. Sessiz Oda 2.0.5, Black Sticker Maker 0.1.0 ve Black Video 1.0.0 ön sürümlerini içerir.
 
 ## Yayınlama
 
@@ -25,3 +25,11 @@ Bu site GitHub release'lerini otomatik çekmez.
 Simgeler uygulamaların kendi vector kaynaklarından dönüştürüldü.
 APK'lar yayımlanmış sürümlerle byte düzeyinde aynıdır.
 İmza anahtarları ve sunucu sırları bu pakette bulunmaz.
+
+## Black Video dağıtımı
+
+Black Video APK 107.539.078 bayttır ve GitHub tek dosya sınırını aşar. Bu yüzden APK GitHub Release v1.0.0 içinde saklanır. Render derlemesinde verify.py, downloads.json içindeki sabit bağlantıdan indirir; boyutunu ve SHA-256 değerini kontrol ettikten sonra dist/downloads/black-video-1.0.0.apk olarak yayımlar. Hatalı veya eksik dosya varsa derleme başarısız olur. Ziyaretçi APK’yı doğrudan bu siteden indirir. Secret veya yeni ortam değişkeni gerekmez.
+
+Kaynak commit: 7adf514b6f6c41b1197f208ccebd9e2c67c71403; başarılı Actions run: 34231337561. Paket yeniden imzalanmadı. GPL-3.0 lisansı ve kaynak kodu bağlantısı uygulama kartında sunulur.
+
+Sürüm yükseltirken downloads.json, SHA-256 dosyası ve uygulama kartı birlikte güncellenmelidir. Release silinirse sonraki site derlemesi durur; son başarılı yayın etkilenmez.

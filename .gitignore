@@ -1,2 +1,4 @@
 __pycache__/
 *.pyc
+dist/downloads/black-video-*.apk
+dist/downloads/*.part
