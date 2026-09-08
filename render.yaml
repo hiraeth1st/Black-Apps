@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: black-apps
+    runtime: static
+    buildCommand: python3 verify.py
+    staticPublishPath: dist
+    headers:
+      - path: /downloads/*.apk
+        name: Content-Type
+        value: application/vnd.android.package-archive
+      - path: /downloads/*.apk
+        name: Content-Disposition
+        value: attachment
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: no-referrer
